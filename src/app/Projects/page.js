@@ -19,7 +19,7 @@ const page = () => {
           "Express.js",
           "MongoDB",
         ],
-        link:"https://github.com/sujal-kalvani/Todolist-in-mern-stack"
+        link:"https://github.com/sujal-kalvani/MakeMyShop-project"
       },
       {
         logo: "https://drive.google.com/uc?export=view&id=1VmEpqGP1kRTXETx01Dfo3Kyec3CuTb4J",
@@ -35,7 +35,7 @@ const page = () => {
           "Express.js",
           "MongoDB",
         ],
-        link:"https://github.com/sujal-kalvani/Todolist-in-mern-stack"
+        link:"https://github.com/sujal-kalvani/Downloader"
       },
       {
         logo: "https://drive.google.com/uc?export=view&id=12oUOVKml-LfPqTJfuZxN4yBQKfig-jqi",
@@ -64,7 +64,7 @@ const page = () => {
           "React.js",
           "Tailwind",
         ],
-        link:"https://github.com/sujal-kalvani/Todolist-in-mern-stack"
+        link:"https://github.com/sujal-kalvani/Text-Utils"
       },
     ])
   return (

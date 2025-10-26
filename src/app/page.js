@@ -11,6 +11,7 @@ import Skills from "./Skills/page";
 import Experience from "./Experience/page";
 import Projects from "./Projects/page";
 import Contact from "./Contact/page";
+import Education from "./Education/page";
 
 export default function Home() {
 
@@ -30,7 +31,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="flex w-full h-[90vh] justify-between p-5 min-lg:p-14 max-lg:flex-col max-lg:gap-16 items-center">
+      <div className="flex w-full h-[90vh] justify-between p-5 min-lg:p-14 max-lg:flex-col max-lg:gap-16 items-center" id="about">
         <div className="info flex flex-col gap-3 w-1/2 max-lg:w-full">
           <p className="text-2xl">Hello, it's me</p>
           <p className="text-3xl font-bold">Sujal Kalwani</p>
@@ -72,6 +73,7 @@ export default function Home() {
       <Skills/>
       <Experience/>
       <Projects/>
+      <Education/>
       <Contact/> 
     </>
   );
