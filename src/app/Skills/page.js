@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <section
       id="skills"
-      className="w-full py-16 px-4 md:px-10 text-white flex flex-col items-center"
+      className="w-full py-16 px-4 md:px-10 text-white flex flex-col items-center skills"
     >
       <div className="text-center max-w-2xl">
         <h1 className="text-4xl md:text-5xl font-bold border-b-4 border-cyan-500 inline-block pb-2">

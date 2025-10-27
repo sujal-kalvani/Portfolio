@@ -31,7 +31,10 @@ export default function Home() {
 
   return (
     <>
-      <div className="flex w-full h-[90vh] justify-between p-5 min-lg:p-14 max-lg:flex-col max-lg:gap-16 items-center" id="about">
+      <div className="flex w-full min-h-[90vh] justify-between p-5 min-lg:p-14 max-lg:flex-col max-lg:gap-16 items-center" id="about">
+        <div className="min-lg:hidden">
+          <Hexagon />
+        </div>
         <div className="info flex flex-col gap-3 w-1/2 max-lg:w-full">
           <p className="text-2xl">Hello, it's me</p>
           <p className="text-3xl font-bold">Sujal Kalwani</p>
@@ -66,14 +69,16 @@ export default function Home() {
             <Link href={"https://drive.google.com/file/d/1Jy91PppKW6sw9UHWmv3CzE2qGITRA9R-/view?usp=sharing"}>Download CV</Link>
           </div>
         </div>
-       <Hexagon />
+        <div className="max-lg:hidden">
+          <Hexagon />
+        </div>
       </div>
 
-      <Skills/>
-      <Experience/>
-      <Projects/>
-      <Education/>
-      <Contact/> 
+      <Skills />
+      <Experience />
+      <Projects />
+      <Education />
+      <Contact />
     </>
   );
 }
