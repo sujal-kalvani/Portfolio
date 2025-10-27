@@ -24,7 +24,7 @@ const page = () => {
 },
 {
   id: 2,
-  img: "/Kg dholakiya.jpg",
+  img: "/kg dholakiya.jpg",
   school: "K.G. Dholakiya School, Rajkot",
   date: "Apr 2021 - Mar 2022",
   grade: "91 PR",

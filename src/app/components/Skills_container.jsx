@@ -12,7 +12,7 @@ const Skills_container = () => {
         { skill: "CSS", icon: "/css.png" },
         { skill: "JavaScript", icon: "/js.png" },
         { skill: "React.Js", icon: "/react.png" },
-        { skill: "Next.Js", icon: "/next.png" },
+        { skill: "Next.Js", icon: "/Next.png" },
         { skill: "Tailwind", icon: "/tailwind.png" },
         { skill: "Bootstrap", icon: "/bootstrap.png" },
         { skill: "Redux", icon: "/redux.png" },
