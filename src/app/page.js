@@ -72,7 +72,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="min-lg:hidden">
+      <div className="min-lg:hidden overflow-hidden">
         <Hexagon/>
       </div>
       <Skills/>
