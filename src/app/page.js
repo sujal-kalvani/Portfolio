@@ -67,8 +67,13 @@ export default function Home() {
           </div>
         </div>
 
-        <Hexagon/>
+        <div className="max-lg:hidden">
+       <Hexagon />
+        </div>
+      </div>
 
+      <div className="min-lg:hidden">
+        <Hexagon/>
       </div>
       <Skills/>
       <Experience/>
