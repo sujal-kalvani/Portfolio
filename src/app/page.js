@@ -66,15 +66,9 @@ export default function Home() {
             <Link href={"https://drive.google.com/file/d/1Jy91PppKW6sw9UHWmv3CzE2qGITRA9R-/view?usp=sharing"}>Download CV</Link>
           </div>
         </div>
-
-        <div className="max-lg:hidden">
        <Hexagon />
-        </div>
       </div>
 
-      <div className="min-lg:hidden overflow-hidden">
-        <Hexagon/>
-      </div>
       <Skills/>
       <Experience/>
       <Projects/>
