@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Skills_container from "../components/Skills_container";
 
